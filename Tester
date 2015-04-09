@@ -1,0 +1,19 @@
+package mediacomputation;
+
+
+public class DoodleTester
+{
+  public static void main (String[] args)
+  {
+    FileChooser.setMediaPath("C:/Users/Tyler/OneDrive/School-TylerAsus/Spring 2015/Programming/mediasources/");
+    Picture doodle = new Picture("doodle.jpg");
+    //doodle.makeRGBRows();
+    //doodle.write("C:/Users/Tyler/OneDrive/School-TylerAsus/Spring 2015/Programming/RGBrows.jpg");
+    //doodle.makeRGBColumns();
+    //doodle.write("C:/Users/Tyler/OneDrive/School-TylerAsus/Spring 2015/Programming/RGBcolumns.jpg");
+    //doodle.createStripes();
+    //doodle.write("C:/Users/Tyler/OneDrive/School-TylerAsus/Spring 2015/Programming/stripes.jpg");
+    doodle.negate(50,200,20,20);
+    doodle.explore();
+  }
+}
